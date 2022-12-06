@@ -22,8 +22,6 @@
 ## -Exports .pdf with the plots shown in this publication, plus additional plots; 
 ## -Exports browser shots of each allele together with the transcriptome annotation to help in curation.
 ##
-## jonathan.froehlich/at/gm*il.com
-## 2022
 ##
 ##################################################/
 
