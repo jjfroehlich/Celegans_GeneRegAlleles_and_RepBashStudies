@@ -94,7 +94,7 @@ if (!file.exists("data/VARIATIONS_CLASSICAL_ALLELES.gff3"))
 
 ## Extended Data from Froehlich & Rajewsky which contains manual annotations (see last step of 4c in this script)
 if (!file.exists("supplemental_data/Extended_Data_Tables_S1_S2_S3.xlsx"))
-{download.file("INSERT WEB ADDRESS OF EXTENDED DATA REPOSITORY (E:G: GITHUB OR SIMILAR)",
+{download.file("https://github.com/jonathanfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/Extended_Data_Tables_S1_S2_S3.xlsx",
                "supplemental_data/Extended_Data_Tables_S1_S2_S3.xlsx")}
 
 
