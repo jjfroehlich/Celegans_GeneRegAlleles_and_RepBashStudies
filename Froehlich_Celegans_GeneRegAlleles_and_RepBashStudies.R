@@ -79,9 +79,16 @@ if (!file.exists("data/ce11.phyloP135way.bw"))
                "data/ce11.phyloP135way.bw")}
 
 ## Classical Alleles from WormBase, 3 MB
+# Version used for the publication, WS284
 if (!file.exists("data/VARIATIONS_CLASSICAL_ALLELES.gff3"))
-{download.file("https://wormbase.org/tools/genome/gbrowse/c_elegans_PRJNA13758/?gbgff=1;l=VARIATIONS_CLASSICAL_ALLELES;s=0;f=save+gff3;format=gff3",
+{download.file("https://github.com/jonathanfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/VARIATIONS_CLASSICAL_ALLELES_WS284.gff3",
                "data/VARIATIONS_CLASSICAL_ALLELES.gff3")}
+
+# Alternatively, latest version directly from WormBase
+# if (!file.exists("data/VARIATIONS_CLASSICAL_ALLELES.gff3"))
+# {download.file("https://wormbase.org/tools/genome/gbrowse/c_elegans_PRJNA13758/?gbgff=1;l=VARIATIONS_CLASSICAL_ALLELES;s=0;f=save+gff3;format=gff3",
+#                "data/VARIATIONS_CLASSICAL_ALLELES.gff3")}
+# 
 # Alternatively one can download this data manually one-by-one from the WormBase Jbrowse
 # In case you do this you need to uncomment the code that merges these files, see below in the section "2-Load data" - "cele classical alleles" 
 # "Classical alleles" from WormBase release WS284, downloaded one-by-one from the WormBase Jbrowse at https://wormbase.org/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758. Click on little triangle next to track title, "save track data", select "whole reference sequence", format "gff3". Do this on each chromosome.
