@@ -3,4 +3,6 @@
 
 <br> [R script](https://github.com/jonathanfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.R) to replicate analyses and figures.
 <br> [Html notebook](https://jonathanfroehlich.github.io/RNotebook_Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.nb.html) with code and figures.
-<br> [<i>(R script to produce html notebook)</i>](https://github.com/jonathanfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/RNotebook_Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.Rmd)
+<br> 
+<br> 
+<br> [<i>R script](https://github.com/jonathanfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/RNotebook_Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.Rmd) to produce html notebook</i>
