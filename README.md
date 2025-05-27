@@ -3,6 +3,15 @@
 
 <br> [R script](https://github.com/jjfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.R) to replicate analyses and figures.
 <br> [Html notebook](https://jjfroehlich.github.io/RNotebook_Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.nb.html) with code and figures.
-<br> 
-<br> 
 <br> [<i>R script](https://github.com/jjfroehlich/Celegans_GeneRegAlleles_and_RepBashStudies/blob/main/RNotebook_Froehlich_Celegans_GeneRegAlleles_and_RepBashStudies.Rmd) to produce html notebook</i>
+
+<br><br>
+<b>Main steps of script:</b>
+<ul>
+  <li>Downloads “classical alleles” and genome/transcript annotations from WormBase (WS284)</li>
+  <li>Cleans transcript models to conservatively remove overlaps (for example UTRs overlapping CDS) and generates clean, non-overlapping genomic features: CDS, UTRs, introns, and intergenic regions</li>
+  <li>Classifies "classical alleles" by overlap with these features</li>
+  <li>Exports <code>.bed</code> files and an Excel spreadsheet for downstream curation. Then re-loads manually curated infos</li>
+  <li>Generates all plots shown in the publication, and additional summary plots as <code>.pdf</code></li>
+  <li>Creates automated GViz browser snapshots of alleles with surrounding annotation to verify</li>
+</ul>
